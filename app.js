@@ -9,7 +9,7 @@ require('./app_api/models/db');
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 const travelRouter = require('./app_server/routes/travel');
-const apiRouter = require ('./app_server/routes/index');
+const apiRouter = require ('./app_api/routes/index');
 
 var app = express();
 
