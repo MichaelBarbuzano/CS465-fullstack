@@ -27,11 +27,9 @@ userSchema.methods.validPassword = function(password) {
 };
 
 userSchema.methods.generateJwt = function() {
-  if(!process.env.JWT_SECRET){
-    throw new Error('JWT_SECRET must be defined!!!!!!!!!!!!!')
-  }
   const expiry = new Date();
   expiry.setDate(expiry.getDate() + 7);
+  
   return jwt.sign({
     _id: this._id,
     email: this.email,

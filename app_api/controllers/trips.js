@@ -92,6 +92,15 @@ const tripsUpdateTrip = async (req, res) => {
                     });
 
             }
+            res.send(trip);
+        }).catch(err => {
+            if(err.kind === 'ObjectId') {
+                return res
+                    .status(404)
+                    .send({
+                        message: "Trip not found with code " + req.params.tripCode
+                    });
+            }
             return res
                 .status(500) // Server error
                 .json(err);
