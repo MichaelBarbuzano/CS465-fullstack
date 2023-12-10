@@ -60,6 +60,8 @@ typings/
 # next.js build output
 .next
 
+.env
+
 # Visual Studio Code working files
 .vscode/*
 !.vscode/settings.json

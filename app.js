@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -19,6 +21,9 @@ const apiRouter = require ('./app_api/routes/index');
 
 var app = express();
 
+console.log(process.env.JWT_SECRET);
+const JWT_SECRET = process.env.JWT_SECRET;
+console.log(process.env.JWT_SECRET);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));

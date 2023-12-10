@@ -27,6 +27,9 @@ userSchema.methods.validPassword = function(password) {
 };
 
 userSchema.methods.generateJwt = function() {
+
+  
+
   const expiry = new Date();
   expiry.setDate(expiry.getDate() + 7);
   
@@ -38,4 +41,4 @@ userSchema.methods.generateJwt = function() {
   }, process.env.JWT_SECRET); // DO NOT KEEP YOUR SECRET IN THE CODE!
 };
 
-mongoose.model('users', userSchema);
+module.exports = mongoose.model("users", userSchema);
