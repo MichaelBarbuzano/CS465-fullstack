@@ -19,7 +19,7 @@ JavaScript is a programming language used for creating dynamic content on the cl
 
 •	Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 
-In the most recent update to this full stack web application, I refactored code to create navigation bar and login components to allow for login functionality that will also interact with other core features.  I added to the edit and add trip buttons so that they only appear if the user is logged in, the updateTrip and createTrip functions also check for successful login to assure secure coding practices.  The app.component.html also now contains <app-navbar></app-navbar> to utilize reusable navbar code and maintain clean and efficient code.
+In the most recent update to this full stack web application, I refactored code to create navigation bar and login components to allow for login functionality that will also interact with other core features.  I added to the edit and add trip buttons so that they only appear if the user is logged in, the updateTrip and createTrip functions also check for successful login to assure secure coding practices.  The app.component.html also now contains <app-navbar></app-navbar> to utilize reusable navbar code and maintain clean and efficient code. 
 
 •	Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
@@ -27,5 +27,5 @@ Methods and enpoints are fundamental components of API testing, ensuring that th
 
 •	How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
-This course has taught me the skills necessary to develop a full stack application using the MEAN stack.  Before this course I did not have any experience with Node, Express, or Angular and now I can say that I feel very comfortable working with them and plan to utilize what I have learned in this course to create many more web applications to assemble a professional portfolio.
+This course has taught me the skills necessary to develop a full stack application using the MEAN stack.  Before this course I did not have any experience with Node, Express, or Angular and now I can say that I feel very comfortable working with them and plan to utilize what I have learned in this course to create many more web applications to assemble a professional portfolio. I understand that the software development field can be very competitive, so I plan to practice many skills such as web development to become qualified enough to earn an entry an internship or possibly an entry level position.
 
