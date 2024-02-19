@@ -4,7 +4,6 @@ CS-465 Full Stack Development with MEAN
 Michael Barbuzano
 CS-465
 12/12/2023
-Module Eight: Journal
 
 •	Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
@@ -28,4 +27,17 @@ Methods and enpoints are fundamental components of API testing, ensuring that th
 •	How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
 This course has taught me the skills necessary to develop a full stack application using the MEAN stack.  Before this course I did not have any experience with Node, Express, or Angular and now I can say that I feel very comfortable working with them and plan to utilize what I have learned in this course to create many more web applications to assemble a professional portfolio. I understand that the software development field can be very competitive, so I plan to practice many skills such as web development to become qualified enough to earn an entry an internship or possibly an entry level position.
+
+Screenshots:
+Frontend
+![Travlr_Frontend](https://github.com/MichaelBarbuzano/CS465-fullstack/assets/148410804/2ef708a8-f1c4-4742-9bfe-b31ad2713881)
+Adming Login Page
+![Travlr_Login](https://github.com/MichaelBarbuzano/CS465-fullstack/assets/148410804/347f895d-7288-47da-9d88-823cbcb09ba7)
+Admin Page
+![Travlr_Admin](https://github.com/MichaelBarbuzano/CS465-fullstack/assets/148410804/6c73e15f-520f-4d08-8964-2bacf22f9ad7)
+
+
+
+
+
 
